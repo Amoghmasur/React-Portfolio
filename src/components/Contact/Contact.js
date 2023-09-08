@@ -1,11 +1,10 @@
 import React from 'react'
 import "./Contact.css"
-import Particle from "../Particle";
+
 
 function Contact() {
     return (
         <div className='bgg'>
-            <Particle/>
             <section className="contact" id="contact">
                 <div className="container">
                     <div className="content">

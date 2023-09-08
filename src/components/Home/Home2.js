@@ -6,12 +6,10 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Particle from "../Particle";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
-      <Particle/>
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -49,7 +47,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={Imagehome} className="img-fluid" />
+              <img src={Imagehome} className="img-fluid" alt="amogh" />
             </Tilt>
           </Col>
         </Row>
